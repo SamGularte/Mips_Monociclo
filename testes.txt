@@ -1,0 +1,4 @@
+lw $t1 512($zero)
+lw $t2 513($zero)
+add $s1 $t2 $t1
+sw $s1 514($zero)
